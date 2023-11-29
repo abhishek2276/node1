@@ -4,7 +4,7 @@
   "main": "Main1.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "s": "nodemon Main1.js",
+    "s": "pm2 start Main1.js",
     "build": "npm install"
   },
   "repository": {
