@@ -1,0 +1,51 @@
+{
+  "name": "main2",
+  "version": "1.0.0",
+  "main": "Main1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "s": "nodemon Main1.js",
+    "build": "npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abhishek2276/exp.git"
+  },
+  "keywords": [
+    "hii"
+  ],
+  "author": "k.abhishek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhishek2276/exp/issues"
+  },
+  "homepage": "https://github.com/abhishek2276/exp#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "json-server": "^0.17.3",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.3",
+    "netlify-lambda": "^2.0.16",
+    "path": "^0.12.7",
+    "pg": "^8.11.0",
+    "repository": "^0.2.0",
+    "serverless-http": "^3.2.0",
+    "session": "^0.1.0",
+    "twilio": "^4.15.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "netlify-cli": "^17.7.0",
+    "nodemon": "^2.0.22",
+    "webpack-cli": "^5.1.4"
+  },
+  "description": "hii"
+}
